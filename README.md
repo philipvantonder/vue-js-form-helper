@@ -70,4 +70,4 @@ import vue from 'vue';
 [Jeffrey Way](https://github.com/laracasts/Vue-Forms)
 
 ## Licence
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT License](https://opensource.org/licenses/MIT)
