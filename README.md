@@ -12,10 +12,9 @@ npm i laravel-vue-form-helper
 
 The following code snippet will show how to use the package with Vue.JS
 
-```python
-
 ### html
 
+```python
 <div id="app">
     <form @submit.prevent="onSubmit" @keydown="form.errors.clear()">
 
@@ -34,10 +33,9 @@ The following code snippet will show how to use the package with Vue.JS
 </div>
 ```
 
-```python
-
 ### Vue.js
 
+```python
 import Form from 'laravel-vue-form-helper';
 import vue from 'vue';
 
