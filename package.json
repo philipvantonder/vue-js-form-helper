@@ -1,6 +1,6 @@
 {
   "name": "laravel-vue-form-helper",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "This is a small library that makes form submit and validation easier to use.",
   "main": "index.js",
   "scripts": {
