@@ -28,7 +28,7 @@ The following code snippet will show how to use the package with Vue.JS
             <span v-if="form.errors.has('email')" v-text="form.errors.get('email')"></span>
         </div>
         
-        <button class="button is-primary" :disabled="form.errors.any()">Submit</button>
+        <button :disabled="form.errors.any()">Submit</button>
     </form>
 </div>
 ```
