@@ -36,6 +36,7 @@ The following code snippet will show how to use the package with Vue.JS
 ### Vue.js
 
 ```js
+import axois from 'axios';
 import Form from 'laravel-vue-form-helper';
 import vue from 'vue';
 
@@ -67,7 +68,7 @@ import vue from 'vue';
 
 ## Authors and acknowledgment
 
-[Jeffrey Way](https://github.com/laracasts/Vue-Forms)
+[Jeffrey Way](https://github.com/laracasts/Vue-Forms) 
 
 ## Licence
 [MIT License](https://opensource.org/licenses/MIT)
