@@ -1,14 +1,14 @@
 {
-  "name": "vue-form-helper",
-  "version": "1.0.3",
-  "description": "This is a small library that makes form submit and validation easier to use.",
+  "name": "vue-js-form-helper",
+  "version": "1.0.1",
+  "description": "This is a small library that makes form submit and validation easy to use.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/philipvantonder/vue-form-helper.git"
+    "url": "https://github.com/philipvantonder/vue-js-form-helper.git"
   },
   "keywords": [
     "laravel",
@@ -18,7 +18,7 @@
   "author": "Philip",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/philipvantonder/vue-form-helper/issues"
+    "url": "https://github.com/philipvantonder/vue-js-form-helper/issues"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",

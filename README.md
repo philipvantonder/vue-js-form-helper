@@ -1,11 +1,11 @@
-# vue-form-helper
+# vue-js-form-helper
 
 This is a small library that makes form submit and validation easier to use.
 
 ## Installation
 
 ```bash
-npm i vue-form-helper
+npm i vue-js-form-helper
 ```
 
 ## Code Example
@@ -37,7 +37,7 @@ The following code will show how to use it with Vue.JS
 
 ```js
 import axois from 'axios';
-import Form from 'vue-form-helper';
+import Form from 'vue-js-form-helper';
 import vue from 'vue';
 
 <script>
