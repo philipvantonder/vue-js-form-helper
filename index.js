@@ -1,1 +1,1 @@
-import Form from './src/Form';
+module.exports = require('./src/form.js')

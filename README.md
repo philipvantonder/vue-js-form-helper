@@ -1,4 +1,4 @@
-# Form and Validation helper
+# laravel-vue-form-helper
 
 This is a small library that makes form submit and validation easier to use.
 
@@ -14,7 +14,7 @@ The following code snippet will show how to use the package with Vue.JS
 
 ### html
 
-```python
+```html
 <div id="app">
     <form @submit.prevent="onSubmit" @keydown="form.errors.clear()">
 
@@ -35,7 +35,7 @@ The following code snippet will show how to use the package with Vue.JS
 
 ### Vue.js
 
-```python
+```js
 import Form from 'laravel-vue-form-helper';
 import vue from 'vue';
 

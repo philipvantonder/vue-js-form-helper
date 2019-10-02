@@ -1,20 +1,33 @@
 {
   "name": "laravel-vue-form-helper",
   "version": "1.0.0",
-  "description": "Library that help to submit form and handle validation in Laravel Vue Application",
-  "main": "dist/index.js",
+  "description": "This is a small library that makes form submit and validation easier to use.",
+  "main": "index.js",
   "scripts": {
-    "build": "webpack --mode production"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/philipvantonder/laravel-vue-form-helper.git"
+  },
+  "keywords": [
+    "laravel",
+    "vue",
+    "form"
+  ],
+  "author": "Philip",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/philipvantonder/laravel-vue-form-helper/issues"
+  },
   "devDependencies": {
     "@babel/core": "^7.6.2",
     "babel": "^6.23.0",
     "babel-loader": "^8.0.6",
     "cross-env": "^6.0.0",
     "webpack": "^4.41.0",
-    "webpack-cli": "^3.3.9"
+    "webpack-cli": "^3.3.9",
+    "vue": "^2.6.10"
   },
   "dependencies": {
     "axios": "^0.19.0"
