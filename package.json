@@ -11,9 +11,10 @@
     "url": "https://github.com/philipvantonder/vue-js-form-helper.git"
   },
   "keywords": [
-    "laravel",
-    "vue",
-    "form"
+    "Laravel",
+    "Vue",
+    "Form",
+    "Validation"
   ],
   "author": "Philip",
   "license": "MIT",
