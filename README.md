@@ -10,7 +10,7 @@ npm i vue-js-form-helper
 
 ## Code Example
 
-The following code will show how to use it with Vue.JS
+The following code will show how to use it with Vue.js
 
 ### html
 
@@ -33,7 +33,7 @@ The following code will show how to use it with Vue.JS
 </div>
 ```
 
-### Vue.js
+### app.js
 
 ```js
 import axois from 'axios';
@@ -64,6 +64,15 @@ import vue from 'vue';
     });
 
 </script>
+```
+
+## Note
+
+If the name and email field are empty, the error response should be the name and email field with the message.
+
+## Response Example
+```JSON
+{"name": "The name field is required", "email": "The Email field is required"}
 ```
 
 ## Authors and acknowledgment
