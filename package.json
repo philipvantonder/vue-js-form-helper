@@ -1,6 +1,6 @@
 {
   "name": "vue-js-form-helper",
-  "version": "1.0.1",
+  "version": "2.1.2",
   "description": "This is a small library that makes form submit and validation easy to use.",
   "main": "index.js",
   "scripts": {

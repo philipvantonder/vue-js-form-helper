@@ -38,37 +38,33 @@ The following code will show how to use it with Vue.js
 ```js
 import axois from 'axios';
 import Form from 'vue-js-form-helper';
-import vue from 'vue';
+import Vue from 'vue';
 
-<script>
+var app = new Vue({
 
-    var app = new Vue({
-        el: "#app",
-        data: {
+    el: "#app",
 
-            form: new Form({ 
-                name: '',
-                email: ''
-            })
+    data: {
 
-        },
-        methods: {
-            onSubmit() {
+        form: new Form({ 
+            name: '',
+            email: ''
+        })
 
-                this.form.submit('post', '/test')
-                .then(response => console.log('Success'))
-                .catch(error => console.log('Something went wrong'));
+    },
 
-            }
+    methods: {
+        onSubmit() {
+
+            this.form.submit('post', '{url}')
+            .then(response => console.log('Success'))
+            .catch(error => console.log('Error'));
+
         }
-    });
+    }
 
-</script>
+});
 ```
-
-## Note
-
-If the name and email field are empty, the error response should be the name and email field with the message.
 
 ## Authors and acknowledgment
 
