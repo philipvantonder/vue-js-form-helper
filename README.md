@@ -70,11 +70,6 @@ import vue from 'vue';
 
 If the name and email field are empty, the error response should be the name and email field with the message.
 
-## Response Example
-```JSON
-{"name": "The name field is required", "email": "The Email field is required"}
-```
-
 ## Authors and acknowledgment
 
 [Jeffrey Way](https://github.com/laracasts/Vue-Forms) 

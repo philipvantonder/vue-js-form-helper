@@ -32,7 +32,11 @@ class Errors {
      */
     get(field) {
         if (this.errors[field]) {
-            return this.errors[field][0];
+            if(typeof this.errors[field][0] === 'undefined') {
+                return this.errors[field];
+            } else {
+                return this.errors[field][0];
+            }
         }
     }
 
