@@ -98,7 +98,7 @@ class Form {
                     resolve(response.data);
                 })
                 .catch(error => {
-                    this.onFail(error.response.data);
+                    this.onFail(error.response.data.errors);
 
                     reject(error.response.data);
                 });
@@ -112,8 +112,6 @@ class Form {
      * @param {object} data
      */
     onSuccess(data) {
-        alert(data.message); // temporary
-
         this.reset();
     }
 
